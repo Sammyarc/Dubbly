@@ -6,9 +6,9 @@ A one-page web app that allows users to upload a video, transcribe it, translate
 ## ✨ Features
 
 - Upload short `.mp4` or `.mov` videos
-- Automatic transcription (using OpenAI Whisper)
+- Automatic transcription (using AssemblyAI)
 - Translate transcript into 20+ languages
-- Generate AI voiceovers (ElevenLabs or AWS Polly)
+- Generate AI voiceovers (ElevenLabs)
 - Merge new audio with original video
 - Preview and download final dubbed video
 - 100% client-friendly, no login, no database
@@ -21,9 +21,9 @@ A one-page web app that allows users to upload a video, transcribe it, translate
 |-------------|--------------------------|
 | Frontend    | React + Vite + Tailwind  |
 | Backend     | Node.js + Express        |
-| Transcribe  | OpenAI Whisper (local or API) |
+| Transcribe  | AssemblyAI               |
 | Translate   | Google Translate API     |
-| TTS         | ElevenLabs / AWS Polly   |
+| TTS         | ElevenLabs               |
 | Video Merge | FFmpeg                   |
 
 ---
@@ -35,3 +35,12 @@ A one-page web app that allows users to upload a video, transcribe it, translate
 ```bash
 git clone https://github.com/yourusername/Dubbly.git
 cd Dubbly
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+or
+yarn install
+```
